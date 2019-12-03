@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="false">
+        <shape android:shape="oval">
+            <size android:width="@dimen/_16sdp" android:height="@dimen/_16sdp" />
+            <stroke android:width="@dimen/_1sdp" android:color="@color/colorAccent" />
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/ic_check" android:state_checked="true" />
+</selector>

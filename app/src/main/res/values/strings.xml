@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">ProximiPro Demo</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="already_have_account">If you have created an account, please <font color="#ffff4444"><b>enter your account API-KEY</b></font></string>
+    <string name="demo_account">Want to try demo account?</string>
+    <string name="try_now">try now</string>
+    <string name="no_account">Don\'t have an account? <b>Check out platform options.</b></string>
+    <string name="see_platform_options">See platform options</string>
+    <string name="submit">Submit</string>
+    <string name="enter_api_key">Enter API Key</string>
+    <string name="proximipro">ProximiPRO</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="enter_your_birth_date">Enter your birth date</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="just_one_more_step">Just one more step</string>
+    <string name="signup">Sign Up</string>
+    <string name="terms_and_conditions">By signing up, you agree to\n<font color="#ffff4444"><b><u>Terms &amp; conditions</u></b></font> of <b>ProximiPro</b></string>
+    <string name="loading">Loading...</string>
+    <string name="please_enter_valid_api_key">Please enter a valid api key</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="cannot_proceed">Cannot proceed without location permission</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="permission_blocked">Permission Blocked</string>
+    <string name="permission_blocked_dialog">This feature requires location permission to function. Please grant location permission from settings.</string>
+    <string name="open_settings">OPEN SETTINGS</string>
+    <string name="cancel">CANCEL</string>
+    <string name="permission_required">Location permission required</string>
+    <string name="permission_required_text">This app requires location permission to perform scanning. Please grant location permission to proceed further</string>
+    <string name="grant">Grant</string>
+    <string name="select_birth_date">Please select birth date</string>
+    <string name="select_gender">Please select gender</string>
+    <string name="register_yourself">Register Yourself</string>
+    <string name="restart_note">Note: In order to apply this change, app needs to be restarted. Cancel if you don\'t want to change anything.</string>
+    <string name="restart">Restart</string>
+    <string name="restart_title">Restart Required!</string>
+    <string name="restart_content">In order to apply these recent changes, the app needs to be restarted.</string>
+    <string name="api_key_title">ProximiPRO API Key</string>
+    <string name="api_key_summary">abcdefghijklsfls</string>
+    <string name="key_api_key">api_key</string>
+    <string name="key_beacon_uuid">beacon_uuid</string>
+    <string name="beacon_uuid_title">IBeacon UUID</string>
+    <string name="beacon_uuid_summary">A7FD2EB7-1F00-4168-B99B-A749BAC1CA64</string>
+    <string name="key_background_mode">background_mode</string>
+    <string name="background_mode_summary">Enable/disable background scan mode</string>
+    <string name="bg_mode_title">Background Mode</string>
+    <string name="key_notification">notification</string>
+    <string name="notification_summary">Enable/disable notifications whent the app is running in background</string>
+    <string name="notification_title">Notifications</string>
+    <string name="key_bg_scan_interval">background_scan_interval</string>
+    <string name="interval_summary">Note that background scan effects directly on battery performance</string>
+    <string name="interval_title">Background Scan Interval</string>
+    <string name="key_auto_refresh">auto_refresh</string>
+    <string name="auto_refresh_summary">Enable/disable auto refresh content when a scan is ongoing</string>
+    <string name="auto_refresh_title">Auto Refresh Content</string>
+    <string name="key_auto_refresh_interval">auto_refresh_interval</string>
+    <string name="auto_refresh_interval_summary">10 seconds</string>
+    <string name="auto_refresh_interval_title">Auto Refresh Interval</string>
+    <string name="auto_refresh_interval_default">10</string>
+    <string name="auto_refresh_default">false</string>
+    <string name="scan_interval_default">5000</string>
+    <string name="notification_default">false</string>
+    <string name="category_scan">Background Scan</string>
+    <string name="category_genereal">General</string>
+    <string name="info">Info</string>
+    <string name="beacon_details">Beacon Details</string>
+    <string name="close">Close</string>
+    <string name="minor">Minor</string>
+    <string name="major">Major</string>
+    <string name="distance">Distance</string>
+    <string name="rssi">RSSI</string>
+    <string name="tx_power">Tx Power</string>
+    <string name="event">Event</string>
+    <string name="bluetooth_address">Bluetooth Address</string>
+    <string name="beacon_uuid">Beacon UUID</string>
+    <string name="close_button">close button</string>
+    <string name="distance_format">%.3f meters</string>
+    <string name="content_title">Content Title</string>
+    <string name="key_location_based_content">location_base_content</string>
+    <string name="location_based_content_summary">Enable/disable location based content loading feature</string>
+    <string name="location_based_content_title">Location Based Content</string>
+    <string name="invalid_api_key_title">Invalid API key</string>
+    <string name="invalid_api_key_desc">The provided API key is not valid. Please provide an valid API key.</string>
+    <string name="ok">Okay</string>
+    <string name="help_us">Help us know about</string>
+    <string name="your_interests">Your Interests</string>
+    <string name="sport">Sport</string>
+    <string name="food">Food</string>
+    <string name="media">Media</string>
+    <string name="shop">Shop</string>
+    <string name="technology">Technology</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="imdone">I\'m done</string>
+    <string name="profile">Profile</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="accept">Accept</string>
+    <string name="unable_to_initialize">Something went wrong! Please check your internet connection</string>
+    <string name="key_snooze_notifications">snooze_notifications</string>
+    <string name="key_snooze_content">snooze_content</string>
+    <string name="send_report">Send Report</string>
+    <string name="generating_report">Generating Report</string>
+
+    <string-array name="auto_refresh_text">
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+    </string-array>
+
+    <string-array name="auto_refresh_values">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+
+    <string-array name="background_scan_interval_text">
+        <item>5 second</item>
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+    </string-array>
+
+    <string-array name="background_scan_interval_values">
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+    </string-array>
+
+    <string-array name="snooze_notifications_text">
+        <item>No Snooze</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>60 minutes</item>
+    </string-array>
+
+    <string-array name="snooze_notifications_values">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="snooze_content_text">
+        <item>No Snooze</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>4 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+    </string-array>
+
+    <string-array name="snooze_content_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+</resources>

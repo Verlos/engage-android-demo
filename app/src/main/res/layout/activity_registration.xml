@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".view.RegistrationActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="@dimen/_190sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/just_one_more_step"
+            android:textAlignment="center"
+            android:textColor="@color/txt_light"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_yourself"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_32sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="@color/card_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/_16sdp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="226dp">
+
+        <TextView
+            android:id="@+id/tvBirthDateLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/birth_date"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvBirthDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/input_bg"
+            android:hint="@string/enter_your_birth_date"
+            android:onClick="openDatePicker"
+            android:padding="@dimen/_12sdp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/tvGenderLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="@string/gender"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="111dp" />
+
+        <RadioGroup
+            android:id="@+id/genderGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/colorAccent"
+                android:text="@string/male"
+                android:textSize="@dimen/_12sdp" />
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/colorAccent"
+                android:text="@string/female"
+                android:textSize="@dimen/_12sdp" />
+
+        </RadioGroup>
+
+        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+            android:id="@+id/btnSignUp"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@drawable/btn_bg"
+            android:clickable="true"
+            android:elevation="@dimen/_2sdp"
+            android:focusable="true"
+            android:onClick="signUp"
+            android:text="@string/signup"
+            android:textStyle="bold"
+            app:finalCornerAngle="@dimen/_100sdp"
+            app:initialCornerAngle="@dimen/_100sdp"
+            app:spinning_bar_color="@android:color/white"
+            app:spinning_bar_padding="@dimen/_3sdp"
+            app:spinning_bar_width="@dimen/_2sdp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:onClick="openTermsAndConditions"
+        android:text="@string/terms_and_conditions"
+        android:textAlignment="center"
+        android:textSize="@dimen/_14sdp" />
+
+</LinearLayout>

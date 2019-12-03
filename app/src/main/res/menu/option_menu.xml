@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/optionProfile"
+        android:icon="@drawable/ic_profile"
+        android:orderInCategory="1"
+        android:title="@string/profile"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/optionInfo"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:orderInCategory="2"
+        android:title="@string/info"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/optionLogout"
+        android:icon="@drawable/ic_exit"
+        android:orderInCategory="3"
+        android:title="@string/logout"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/optionSettings"
+        android:icon="@drawable/ic_settings"
+        android:orderInCategory="4"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/optionSendReport"
+        android:icon="@drawable/ic_bug_report"
+        android:orderInCategory="5"
+        android:title="@string/send_report"
+        app:showAsAction="ifRoom" />
+</menu>

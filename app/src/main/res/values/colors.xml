@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/black</color>
+    <color name="colorPrimaryDark">@android:color/black</color>
+    <color name="colorAccent">#d32f2f</color>
+    <color name="txt_light">#a7a7a7</color>
+    <color name="card_bg">#111111</color>
+    <color name="spinning_bar_color">#FFFFFF</color>
+    <color name="title_color">#212121</color>
+    <color name="bg_color">#121212</color>
+    <color name="content_bg">#121212</color>
+    <color name="disable">#80BEBEBE</color>
+</resources>
